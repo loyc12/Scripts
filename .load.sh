@@ -1,5 +1,5 @@
 # SHORTCUTS
-export SCRIPTS="/home/loyc/Scripts"
+export SCRIPTS=$HOME/Scripts
 
 source $SCRIPTS/.colours.sh
 source $SCRIPTS/.gitcmds.sh
