@@ -15,7 +15,7 @@ alias GFT='echo "\n$YELLOW > ! fetching from given branch ! <$DEFCOL \n" &! git 
 alias GMRG='echo "\n$MAGENTA > !! merging from given branch !! <$DEFCOL \n" &! git merge' #								git merge < src_branch >
 alias GPSH='echo "\n$MAGENTA > !! pushing commited changes to branch !! <$DEFCOL \n" &! git push' #						git push
 alias GQCKP='echo "\n$RED > !!! making quick commit !!! <$DEFCOL \n" &! $SCRIPTS/.gitquick.sh' #						git quickpush
-alias GRSET='echo "\n$RED > !!! resetting branch to origin !!! <$DEFCOL \n" &! git reset --hard origin/' #				git reset --hard origin/< branch >
+alias GRSET='echo "\n$RED > !!! resetting branch to origin !!! <$DEFCOL \n" &! git reset --hard' #						git reset --hard origin/< branch >
 
 alias GRLD='echo "\n$GREEN > ! reloading all scripts ! <$DEFCOL \n" &! source $SCRIPTS/.gitcmds.sh'
 
