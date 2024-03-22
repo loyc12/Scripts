@@ -5,6 +5,7 @@ then
 	c_branch=$(git branch | grep \* | cut -d ' ' -f2)
 	echo "$MAGENTA You are about to autopush these files to the current branch ( $c_branch ) :$DEFCOL \n"
 	git status -s
+	echo ""
 else
 	echo "\n$RED Cannot use git here !!!$DEFCOL \n"
 	exit 1
