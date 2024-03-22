@@ -21,3 +21,5 @@ alias GRSET='echo "\n$RED > !!! resetting branch to origin !!!$DEFCOL \n" ; git 
 alias GRLD='echo "\n$GREEN > ! reloading all scripts !$DEFCOL \n" ; source $SCRIPTS/.gitcmds.sh'
 
 alias TEST='echo "\n$RED T$MAGENTA E$YELLOW S$GREEN T$BLUE E$CYAN D$DEFCOL \n"'
+
+# TODO : add a warning to GRSET (yes/no ?)
