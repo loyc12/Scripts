@@ -3,7 +3,8 @@
 if git rev-parse --is-inside-work-tree > /dev/null 2>&1
 then
 	c_branch=$(git branch | grep \* | cut -d ' ' -f2)
-	echo "$MAGENTA You are about to autopush to the current branch ( $c_branch )$DEFCOL \n"
+	echo "$MAGENTA You are about to autopush these files to the current branch ( $c_branch ) :$DEFCOL \n"
+	git status
 else
 	echo "\n$RED Cannot use git here !!!$DEFCOL \n"
 	exit 1
@@ -18,7 +19,6 @@ then
 else
 		git remote update || true
 		git pull || true
-		git status || true
 		git add * || true
 		git add -u || true
 		git status || true
