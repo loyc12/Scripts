@@ -4,7 +4,7 @@ if git rev-parse --is-inside-work-tree > /dev/null 2>&1
 then
 	c_branch=$(git branch | grep \* | cut -d ' ' -f2)
 	echo "$MAGENTA You are about to autopush these files to the current branch ( $c_branch ) :$DEFCOL \n"
-	git status
+	git status -s
 else
 	echo "\n$RED Cannot use git here !!!$DEFCOL \n"
 	exit 1
