@@ -2,7 +2,7 @@ source $SCRIPTS/.colours.sh
 
 # asks the user if they want to continue with the script
 
-echo "\n$YELLOW Are you sure you want to continue ?$DEFCOL \n"
+echo "$YELLOW Are you sure you want to continue ? ( y/yes )$DEFCOL \n "
 read answer
 
 case $answer in
