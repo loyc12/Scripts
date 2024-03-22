@@ -1,4 +1,4 @@
-source $SCRIPTS/.colours.sh
+# source $SCRIPTS/.colours.sh
 
 # asks the user if they want to continue with the script
 

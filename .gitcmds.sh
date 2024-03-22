@@ -1,4 +1,5 @@
 # GIT COMMANDS
+
 alias GO='echo "\n$GREEN > cloning repo from given address$DEFCOL \n" ; git clone ; echo ""' #						git optain (clone < repo-url >)
 alias GS='echo "\n$GREEN > checking branch status$DEFCOL \n" ; git status -s ; echo ""' #							git status
 alias GP='echo "\n$GREEN > pulling branch updates$DEFCOL \n" ; git pull ; echo ""' #								git pull
@@ -19,6 +20,4 @@ alias GRSET='echo "\n$RED > !!! resetting branch to origin !!!$DEFCOL \n" ; git 
 
 alias GRLD='echo "\n$GREEN > ! reloading all scripts !$DEFCOL \n" ; source $SCRIPTS/.gitcmds.sh'
 
-# implement a Y/n for dangerous commands
-
-alias TEST='echo "$GREEN test$DEFCOL \n"'
+alias TEST='echo "\n$RED T$MAGENTA E$YELLOW S$GREEN T$BLUE E$CYAN D$DEFCOL \n"'
