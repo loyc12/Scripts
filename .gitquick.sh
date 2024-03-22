@@ -24,6 +24,6 @@ else
 		git status || true
 		git commit -m 'minor (gitquick)' || true
 		git push || true
-		echo "$GREEN ========> ! Done ! <========$DEFCOL \n"
+		echo "\n$BLUE ========> ! Done ! <========$DEFCOL \n"
 fi
 
