@@ -1,6 +1,6 @@
 # GIT COMMANDS
 
-alias GO='echo "\n$GREEN > cloning repo from given address$DEFCOL \n" ; git clone ; echo ""' #						git optain (clone < repo-url >)
+alias GO='echo "\n$GREEN > cloning repo from given address$DEFCOL \n" ; git clone' #						git optain (clone < repo-url >)
 alias GS='echo "\n$GREEN > checking branch status$DEFCOL \n" ; git status -s ; echo ""' #							git status
 alias GP='echo "\n$GREEN > pulling branch updates$DEFCOL \n" ; git pull ; echo ""' #								git pull
 alias GU='echo "\n$GREEN > updating remote repos $DEFCOL \n" ; git remote update ; echo ""' #						git (remote) update
