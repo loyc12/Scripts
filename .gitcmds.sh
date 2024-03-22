@@ -19,8 +19,6 @@ alias GRSET='echo "\n$RED > !!! resetting branch to origin !!! <$DEFCOL \n" ; gi
 
 alias GRLD='echo "\n$GREEN > ! reloading all scripts ! <$DEFCOL \n" ; source $SCRIPTS/.gitcmds.sh'
 
-#implement colours codes (for zsh terminals)
-# use script to fix order issues (use gq script as example)
 # implement a Y/n for dangerous commands
 
 alias TEST='echo "$GREEN test$DEFCOL \n"'

@@ -1,23 +1,20 @@
-# gq alias script
+# GQCKP alias script
 
-if [ $(git status) -eq 0 ]
+if git rev-parse --is-inside-work-tree > /dev/null 2>&1
 then
+	c_branch=$(git branch | grep \* | cut -d ' ' -f2)
+	echo "$MAGENTA You are about to autopush to the current branch ( $c_branch )$DEFCOL \n"
+	$SCRIPTS/.yes.sh
+else
 	echo "\n$RED Cannot use git here !!!$DEFCOL \n"
-elif [ $(git status | grep -c "main") -gt 0 ]
+	exit 1
+fi
+
+
+if [ $? -eq 1 ]
 then
-	echo "\n$RED Cannot use gitquick on branch main !!!$DEFCOL \n"
-elif [ $(git status | grep -c "MAIN") -gt 0 ]
-then
-	echo "\n$RED Cannot use gitquick on branch MAIN !!!$DEFCOL \n"
-elif [ $(git status | grep -c "master") -gt 0 ]
-then
-	echo "\n$RED Cannot use gitquick on branch master !!!$DEFCOL \n"
-elif [ $(git status | grep -c "MASTER") -gt 0 ]
-then
-	echo "\n$RED Cannot use gitquick on branch MASTER !!!$DEFCOL \n"
-elif [ $(git status | grep -c "STABLE") -gt 0 ]
-then
-	echo "\n$RED Cannot use gitquick on branch STABLE !!!$DEFCOL \n"
+	echo "$RED Exiting the script !$DEFCOL \n"
+	exit 1
 else
 		git remote update || true
 		git pull || true
