@@ -1,6 +1,8 @@
 #!/bin/bash
 
-PKG_HNDLR_LIST="apt-get apt dnf yum brew apk"
+# Update and upgrade all packages via the package handlers available on your system
+
+PKG_HNDLR_LIST="apt-get apt dnf yum brew apk" # only implemented those with update, upgrade and autoremove commands
 HAS_PKG_HNDLRS=""
 PKG_HNDLR_COUNT=0
 

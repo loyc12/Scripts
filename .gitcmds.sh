@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Creates the aliases for all the added commands. More complex / dangerous commands should have their own .sh file
+
 # GIT COMMANDS
 
 alias GO='printf "\n$GREEN > cloning repo from given address$DEFCOL \n\n" ; git clone' #								git optain (clone < repo-url >)
@@ -27,4 +29,4 @@ alias SRLD='printf "\n$GREEN > ! reloading all scripts !$DEFCOL \n\n" ; source $
 alias PKGU='printf "\n$GREEN > ! updating all packages !$DEFCOL \n\n" ; $SCRIPTS/.pkg-update.sh'
 alias TEST='printf "\n$RED T$MAGENTA E$YELLOW S$GREEN T$BLUE E$CYAN D$DEFCOL \n\n"'
 
-# TODO : add a warning to GRSET (yes/no ?)
+# TODO : add a warning / .sh file for GRSET (yes/no ?)

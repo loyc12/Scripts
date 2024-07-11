@@ -2,7 +2,7 @@
 
 # source $SCRIPTS/.colours.sh
 
-alias HELP="$SCRIPTS/.help.sh"
+# Displays itself
 
 printf "\n"
 printf "$GREEN ================================> HELP MENU <================================$DEFCOL"

@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Pushes all modifications in the current git repository to the current branch ( DANGEROUS )
+
 if not git rev-parse --is-inside-work-tree > /dev/null 2>&1
 then
 	printf "\n$RED Cannot use git here !!!$DEFCOL \n\n"
