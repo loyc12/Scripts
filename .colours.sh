@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Dark colours (Becomes light if bold)
 export DMAGENTA="\033[0;35m"
 export DRED="\033[0;31m"

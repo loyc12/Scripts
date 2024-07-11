@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # source $SCRIPTS/.colours.sh
 
 alias HELP="$SCRIPTS/.help.sh"
@@ -26,6 +28,11 @@ printf "\n   GPSH : git push                 : git push"
 printf "\n   GQCKP: git quickpush            : git add -A & commit -m 'minor' & push"
 printf "\n   GRSET: git reset                : git reset --hard origin"
 printf "\n"
-printf "\n   GRLD : reloads the scripts [ $SCRIPTS/.load.sh ]"
-printf "\n   HELP : displays this menu  [ $SCRIPTS/.help.sh ]"
+printf "\n"
+printf "\n $MAGENTA MISC SHORCUTS :$DEFCOL"
+printf "\n"
+printf "\n   HELP : displays this menu   [ $SCRIPTS/.help.sh ]"
+printf "\n   SRLD : reloads the scripts  [ $SCRIPTS/.load.sh ]"
+printf "\n   PKUP : updates all packages [ $SCRIPTS/.pkg-update.sh ]"
+printf "\n   TEST : displays a test message"
 printf "\n\n"

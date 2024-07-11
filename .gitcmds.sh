@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # GIT COMMANDS
 
 alias GO='printf "\n$GREEN > cloning repo from given address$DEFCOL \n\n" ; git clone' #								git optain (clone < repo-url >)
@@ -19,8 +21,10 @@ alias GPSH='printf "\n$MAGENTA > !! pushing commited changes to branch !!$DEFCOL
 alias GQCKP='printf "\n$RED > !!! making quick commit !!!$DEFCOL \n\n" ; $SCRIPTS/.gitquick.sh' #						git quickpush
 alias GRSET='printf "\n$RED > !!! resetting branch to origin !!!$DEFCOL \n\n" ; git reset --hard' #						git reset --hard origin/< branch >
 
-alias GRLD='printf "\n$GREEN > ! reloading all scripts !$DEFCOL \n\n" ; source $SCRIPTS/.gitcmds.sh'
 
+# MISC COMMANDS
+alias SRLD='printf "\n$GREEN > ! reloading all scripts !$DEFCOL \n\n" ; source $SCRIPTS/.gitcmds.sh'
+alias PKGU='printf "\n$GREEN > ! updating all packages !$DEFCOL \n\n" ; $SCRIPTS/.pkg-update.sh'
 alias TEST='printf "\n$RED T$MAGENTA E$YELLOW S$GREEN T$BLUE E$CYAN D$DEFCOL \n\n"'
 
 # TODO : add a warning to GRSET (yes/no ?)
