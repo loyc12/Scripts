@@ -1,6 +1,8 @@
+#!/bin/bash
+
 # source $SCRIPTS/.colours.sh
 
-alias HELP="$SCRIPTS/.help.sh"
+# Displays itself
 
 printf "\n"
 printf "$GREEN ================================> HELP MENU <================================$DEFCOL"
@@ -17,14 +19,20 @@ printf "\n   GL   : git list                 : git list"
 printf "\n   GG   : git go < branch >        : git switch < branch >"
 printf "\n   GD   : git diff < branches >    : git diff < branch_1..branch_2 >"
 printf "\n"
+printf "\n   GFB  : git fetch < branch >     : git fetch origin/< branch >"
 printf "\n   GNB  : git new < branches >     : git push origin < src_branch:new_branch >"
 printf "\n   GDB  : git delete < branch >    : git branch -d <branch>"
-printf "\n   GFT  : git fetch < branch >     : git fetch origin/< branch >"
+printf "\n   GRA  : git rebase --abort       : git rebase --abort"
 printf "\n   GMRG : git merge < src_branch > : git merge < src_branch >"
 printf "\n   GPSH : git push                 : git push"
 printf "\n   GQCKP: git quickpush            : git add -A & commit -m 'minor' & push"
 printf "\n   GRSET: git reset                : git reset --hard origin"
 printf "\n"
-printf "\n   GRLD : reloads the scripts [ $SCRIPTS/.load.sh ]"
-printf "\n   HELP : displays this menu  [ $SCRIPTS/.help.sh ]"
+printf "\n"
+printf "\n $MAGENTA MISC SHORCUTS :$DEFCOL"
+printf "\n"
+printf "\n   HELP : displays this menu   [ $SCRIPTS/.help.sh ]"
+printf "\n   SRLD : reloads the scripts  [ $SCRIPTS/.load.sh ]"
+printf "\n   PKUP : updates all packages [ $SCRIPTS/.pkg-update.sh ]"
+printf "\n   TEST : displays a test message"
 printf "\n\n"
