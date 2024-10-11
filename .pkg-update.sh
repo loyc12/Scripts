@@ -23,7 +23,7 @@ then
 	exit 1
 fi
 
-printf "$MAGENTA \nYou are about to update ( and upgrade ) ALL packages in these &PKG_HNDLER_COUNT package handlers : $PKG_HNDLR $DEFCOL \n\n"
+printf "$MAGENTA \nYou are about to update ( and upgrade ) ALL packages in these $PKG_HNDLR_COUNT package handlers :\n $HAS_PKG_HNDLRS $DEFCOL \n\n"
 
 $SCRIPTS/.yes.sh
 

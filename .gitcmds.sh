@@ -27,6 +27,7 @@ alias GRSET='printf "\n$RED > !!! resetting branch to origin !!!$DEFCOL \n\n" ; 
 # MISC COMMANDS
 alias SRLD='printf "\n$GREEN > ! reloading all scripts !$DEFCOL \n\n" ; source $SCRIPTS/.gitcmds.sh'
 alias PKGU='printf "\n$GREEN > ! updating all packages !$DEFCOL \n\n" ; $SCRIPTS/.pkg-update.sh'
+alias SNUP='printf "\n$GREEN > ! updating the snap store !$DEFCOL \n\n" ; sudo snap refresh snap-store'
 alias TEST='printf "\n$RED T$MAGENTA E$YELLOW S$GREEN T$BLUE E$CYAN D$DEFCOL \n\n"'
 
 # TODO : add a warning / .sh file for GRSET (yes/no ?)
