@@ -29,5 +29,6 @@ alias SRLD='printf "\n$GREEN > ! reloading all scripts !$DEFCOL \n\n" ; source $
 alias PKGU='printf "\n$GREEN > ! updating all packages !$DEFCOL \n\n" ; $SCRIPTS/.pkg-update.sh'
 alias SNUP='printf "\n$GREEN > ! updating the snap store !$DEFCOL \n\n" ; sudo snap refresh snap-store'
 alias TEST='printf "\n$RED T$MAGENTA E$YELLOW S$GREEN T$BLUE E$CYAN D$DEFCOL \n\n"'
+alias TEST2='printf "\n$BOLD T$DIM E$ITAL S$UDLN T$BLNK E$INV D$HID !$STRK !$DEFCOL \n\n"'
 
 # TODO : add a warning / .sh file for GRSET (yes/no ?)

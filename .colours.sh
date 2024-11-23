@@ -1,7 +1,6 @@
 #!/bin/bash
 
-# Defines basic olours for terminal output
-
+# Defines basic colours for terminal output
 
 # Light colours
 export LMAGENTA="\033[0;95m"
@@ -28,8 +27,18 @@ export DCYAN="\033[0;36m"
 export DBLUE="\033[0;34m"
 
 # Grayscale colours
-export DEFCOL="\033[0m"
 export BLACK="\033[1;30m"
 export GRAY="\033[1;90m"
 export LGRAY="\033[1;37m"
 export WHITE="\033[1;97m"
+
+# Modifiers ( do not work atm)
+export DEFCOL="\033[0m"
+export BOLD="\033[1m"
+export DIM="\033[2m"
+export ITAL="\033[3m"
+export UDLN="\033[4m"
+export BLNK="\033[5m"
+export INV="\033[7m"
+export HID="\033[8m"
+export STRK="\033[9m"
