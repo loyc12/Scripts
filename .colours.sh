@@ -32,7 +32,7 @@ export GRAY="\033[1;90m"
 export LGRAY="\033[1;37m"
 export WHITE="\033[1;97m"
 
-# Modifiers ( do not work atm)
+# Modifiers ( do not all work atm)
 export DEFCOL="\033[0m"
 export BOLD="\033[1m"
 export DIM="\033[2m"
