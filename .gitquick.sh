@@ -22,7 +22,7 @@ fi
 
 git remote update || true
 git pull || true
-git add * || true
+git add -A || true
 git add -u || true
 git status -s || true
 git commit -m 'minor (gitquick)' || true

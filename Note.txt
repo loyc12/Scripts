@@ -1,0 +1,6 @@
+Installing these scripts is straightforward :
+
+1. Place the scripts in a `Scripts` folder in your home directory (`~/Scripts/`)
+2. Add the following line to the end of your `.zshrc`, `.bashrc`, or equivalent shell config file :
+
+source $HOME/Scripts/.load.sh

@@ -1,6 +1,6 @@
-# source $SCRIPTS/.colours.sh
+#!/bin/bash
 
-# asks the user if they want to continue with the script
+# Asks the user if they want to continue with the currently runing script
 
 printf "$YELLOW Are you sure you want to continue ? ( Y/n )$DEFCOL \n\n"
 read answer
