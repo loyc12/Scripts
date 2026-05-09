@@ -1,12 +1,12 @@
 #!/bin/bash
 
-# Loads all the aliases from .gitcmds.sh ( should be sourced at the end of your .zshrc, .bashrc, or any equivalent )
+# Loads all the aliases from .cmds.sh ( should be sourced at the end of your .zshrc, .bashrc, or any equivalent )
 # ex: source $HOME/Scripts/.load.sh
 
 export SCRIPTS=$HOME/Scripts
 
 source $SCRIPTS/.colours.sh
-source $SCRIPTS/.gitcmds.sh
+source $SCRIPTS/.cmds.sh
 
 alias HELP="$SCRIPTS/.help.sh"
 
