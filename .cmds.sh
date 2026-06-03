@@ -25,8 +25,7 @@ alias GQCKP='printf "\n$RED > !!! making quick commit !!!$DEFCOL \n\n" ; $SCRIPT
 alias GRSET='printf "\n$RED > !!! resetting branch to origin !!!$DEFCOL \n\n" ; git reset --hard'                   # git reset --hard origin/< branch >
 
 # ZIG COMMANDS
-alias ZB='printf "\n$GREEN > ! calling zig build !$DEFCOL \n\n" ; zig build'                                          # zig build
-alias ZR='printf "\n$GREEN > ! calling zig build !$DEFCOL \n\n" ; zig build run'                                      # zig run
+alias ZB='printf "\n$GREEN > ! calling zig build !$DEFCOL \n\n" ; zig build'                                          #  zig build
 alias ZLC='printf "\n$GREEN > ! counting the lines of .zig files !$DEFCOL \n\n" ; find . -name "*.zig" | xargs wc -l' # find all named *.zig AND wc -l
 
 # MISC COMMANDS
