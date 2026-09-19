@@ -31,6 +31,7 @@ alias ZLC='printf "\n$GREEN > ! counting the lines of .zig files !$DEFCOL \n\n" 
 
 # MISC COMMANDS
 alias CD='cd'
+alias LS='ls -la'
 alias SRLD='printf "\n$GREEN > ! reloading all scripts !$DEFCOL \n\n" ; source $SCRIPTS/.cmds.sh'
 alias PKGU='printf "\n$GREEN > ! updating all packages !$DEFCOL \n\n" ; $SCRIPTS/.pkg-update.sh'
 alias SNUP='printf "\n$GREEN > ! updating the snap store !$DEFCOL \n\n" ; sudo snap refresh snap-store'
